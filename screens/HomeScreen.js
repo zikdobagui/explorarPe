@@ -36,7 +36,7 @@ export default function HomeScreen({ navigation }) {
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>O que ja esta nesta versão</Text>
+        <Text style={styles.sectionTitle}>O que já está nesta versão</Text>
         <View style={styles.step}>
           <Ionicons name="list-circle-outline" size={28} color={colors.primary} />
           <Text style={styles.stepText}>Lista de pontos turísticos com imagem, categoria, avaliação e endereço.</Text>
@@ -47,7 +47,7 @@ export default function HomeScreen({ navigation }) {
         </View>
         <View style={styles.step}>
           <Ionicons name="construct-outline" size={28} color={colors.primary} />
-          <Text style={styles.stepText}>GPS, perfil e camera ficaram separados para uma proxima etapa.</Text>
+          <Text style={styles.stepText}>GPS, perfil, câmera e galeria já estão disponíveis no app.</Text>
         </View>
       </View>
     </ScrollView>

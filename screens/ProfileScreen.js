@@ -112,12 +112,12 @@ export default function ProfileScreen() {
         )}
       </View>
 
-      <Text style={styles.name}>Usuario ExplorarPe</Text>
+      <Text style={styles.name}>Usuário ExplorarPe</Text>
       <Text style={styles.subtitle}>Adicione uma foto ao seu perfil</Text>
 
       <View style={styles.actions}>
         <AppButton
-          title="Abrir camera"
+          title="Abrir câmera"
           onPress={openCamera}
           icon={<Ionicons name="camera-outline" size={18} color={colors.onPrimary} />}
         />

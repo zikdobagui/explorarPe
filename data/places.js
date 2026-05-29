@@ -2,18 +2,18 @@ export const places = [
   {
     id: '1',
     name: 'Marco Zero',
-    category: 'Historia',
+    category: 'História',
     city: 'Recife',
     rating: 4.9,
     duration: '1h a 2h',
-    address: 'Praca Rio Branco, Recife Antigo',
+    address: 'Praça Rio Branco, Recife Antigo',
     latitude: -8.0631,
     longitude: -34.8711,
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/Marco%20Zero%20-%20Recife%20-%20Pernambuco%20-%20Brasil.jpg?width=900',
     description:
-      'Ponto inicial simbolico da cidade, cercado por predios historicos, vista para o Parque das Esculturas e movimento cultural.',
-    tips: 'Va no fim da tarde para aproveitar a luz, caminhar pelo Recife Antigo e tirar fotos na rosa dos ventos.',
+      'Ponto inicial simbólico da cidade, cercado por prédios históricos, com vista para o Parque das Esculturas e muito movimento cultural.',
+    tips: 'Vá no fim da tarde para aproveitar a luz, caminhar pelo Recife Antigo e tirar fotos na rosa dos ventos.',
   },
   {
     id: '2',
@@ -28,8 +28,8 @@ export const places = [
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Boa_Viagem_%282%29_-_Recife_-_Pernambuco%2C_Brasil.jpg/960px-Boa_Viagem_%282%29_-_Recife_-_Pernambuco%2C_Brasil.jpg',
     description:
-      'Orla mais famosa do Recife, com calcada para caminhar, quiosques, coqueiros, hoteis e piscinas naturais na mare baixa.',
-    tips: 'Respeite as placas de seguranca na praia e prefira aproveitar a faixa de areia e a caminhada na orla.',
+      'Orla mais famosa do Recife, com calçada para caminhar, quiosques, coqueiros, hotéis e piscinas naturais na maré baixa.',
+    tips: 'Respeite as placas de segurança na praia e prefira aproveitar a faixa de areia e a caminhada na orla.',
   },
   {
     id: '3',
@@ -38,14 +38,14 @@ export const places = [
     city: 'Recife',
     rating: 4.9,
     duration: '2h a 3h',
-    address: 'Alameda Antonio Brennand, Varzea',
+    address: 'Alameda Antônio Brennand, Várzea',
     latitude: -8.0654,
     longitude: -34.9631,
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/Castelo%20Brennand%20%28Instituto%20Ricardo%20Brennand%29%20-%20Recife%20-%20Pernambuco%20-%20Brasil%282%29.jpg?width=900',
     description:
-      'Complexo cultural com castelo, jardins, acervo de arte, armas historicas e exposicoes ligadas a historia do Brasil.',
-    tips: 'Reserve algumas horas, porque o lugar e grande e rende uma apresentacao muito bonita no app.',
+      'Complexo cultural com castelo, jardins, acervo de arte, armas históricas e exposições ligadas à história do Brasil.',
+    tips: 'Reserve algumas horas, porque o lugar é grande e rende uma apresentação muito bonita no app.',
   },
   {
     id: '4',
@@ -54,14 +54,14 @@ export const places = [
     city: 'Recife',
     rating: 4.8,
     duration: '1h a 2h',
-    address: 'Propriedade Santos Cosme e Damiao, Varzea',
+    address: 'Propriedade Santos Cosme e Damião, Várzea',
     latitude: -8.0497,
     longitude: -34.9704,
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/Oficina%20de%20Cer%C3%A2mica%20Francisco%20Brennand%20-%20Recife%2C%20Pernambuco%2C%20Brasil.jpg?width=900',
     description:
-      'Espaco artistico criado por Francisco Brennand, reunindo esculturas, ceramicas, jardins e arquitetura marcante.',
-    tips: 'Combine com o Instituto Ricardo Brennand, pois os dois ficam na regiao da Varzea.',
+      'Espaço artístico criado por Francisco Brennand, reunindo esculturas, cerâmicas, jardins e arquitetura marcante.',
+    tips: 'Combine com o Instituto Ricardo Brennand, pois os dois ficam na região da Várzea.',
   },
   {
     id: '5',
@@ -76,12 +76,12 @@ export const places = [
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/Rua%20do%20Bom%20Jesus%2C%20Recife%20antigo.jpg?width=900',
     description:
-      'Rua historica do Recife Antigo, conhecida pelo casario colorido, sinagoga, bares, eventos e atmosfera cultural.',
-    tips: 'Otima para demonstrar a tela de detalhes por ter historia, foto e roteiro facil de explicar.',
+      'Rua histórica do Recife Antigo, conhecida pelo casario colorido, sinagoga, bares, eventos e atmosfera cultural.',
+    tips: 'Ótima para demonstrar a tela de detalhes por ter história, foto e roteiro fácil de explicar.',
   },
   {
     id: '6',
-    name: 'Cais do Sertao',
+    name: 'Cais do Sertão',
     category: 'Museu',
     city: 'Recife',
     rating: 4.8,
@@ -92,56 +92,56 @@ export const places = [
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20Cais%20do%20Sert%C3%A3o%2C%20Recife.jpg?width=900',
     description:
-      'Museu interativo dedicado a cultura sertaneja e a obra de Luiz Gonzaga, com tecnologia, musica e experiencias imersivas.',
-    tips: 'Fale na apresentacao que o app tambem pode recomendar roteiros culturais dentro da cidade.',
+      'Museu interativo dedicado à cultura sertaneja e à obra de Luiz Gonzaga, com tecnologia, música e experiências imersivas.',
+    tips: 'Fale na apresentação que o app também pode recomendar roteiros culturais dentro da cidade.',
   },
   {
     id: '7',
-    name: 'Paco do Frevo',
-    category: 'Musica',
+    name: 'Paço do Frevo',
+    category: 'Música',
     city: 'Recife',
     rating: 4.7,
     duration: '1h',
-    address: 'Praca do Arsenal, Recife Antigo',
+    address: 'Praça do Arsenal, Recife Antigo',
     latitude: -8.0614,
     longitude: -34.8738,
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/Pa%C3%A7o%20do%20Frevo.jpg?width=900',
     description:
-      'Centro cultural dedicado ao frevo, com exposicoes, aulas, memoria carnavalesca e valorizacao da cultura pernambucana.',
-    tips: 'E uma boa tela para mostrar que o app tem identidade local e nao e uma lista generica.',
+      'Centro cultural dedicado ao frevo, com exposições, aulas, memória carnavalesca e valorização da cultura pernambucana.',
+    tips: 'É uma boa tela para mostrar que o app tem identidade local e não é uma lista genérica.',
   },
   {
     id: '8',
-    name: 'Alto da Se',
-    category: 'Vista panoramica',
+    name: 'Alto da Sé',
+    category: 'Vista panorâmica',
     city: 'Olinda',
     rating: 4.8,
     duration: '1h a 2h',
-    address: 'Alto da Se, Sitio Historico de Olinda',
+    address: 'Alto da Sé, Sítio Histórico de Olinda',
     latitude: -8.0136,
     longitude: -34.8498,
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/View%20of%20Recife%2C%20Alto%20da%20Se%2C%20Olinda%20%2820150715-DSC05377%29.jpg?width=900',
     description:
-      'Um dos pontos mais visitados de Olinda, com vista para o mar, igrejas historicas, artesanato e comida regional.',
-    tips: 'Experimente uma tapioca por la e mostre no app como uma dica local do roteiro.',
+      'Um dos pontos mais visitados de Olinda, com vista para o mar, igrejas históricas, artesanato e comida regional.',
+    tips: 'Experimente uma tapioca por lá e mostre no app como uma dica local do roteiro.',
   },
   {
     id: '9',
-    name: 'Se Catedral de Olinda',
-    category: 'Historia',
+    name: 'Sé Catedral de Olinda',
+    category: 'História',
     city: 'Olinda',
     rating: 4.7,
     duration: '40min a 1h',
-    address: 'Alto da Se, Olinda',
+    address: 'Alto da Sé, Olinda',
     latitude: -8.0133,
     longitude: -34.8491,
     image:
       'https://commons.wikimedia.org/wiki/Special:FilePath/BRUNO%20LIMA%20CATEDRAL%20DA%20S%C3%89%20OLINDA%20PE%20%2840866212032%29.jpg?width=900',
     description:
-      'Igreja historica localizada no alto de Olinda, parte importante do conjunto arquitetonico e cultural da cidade.',
-    tips: 'Combine com caminhada pelo sitio historico para montar um roteiro de meio dia.',
+      'Igreja histórica localizada no alto de Olinda, parte importante do conjunto arquitetônico e cultural da cidade.',
+    tips: 'Combine com caminhada pelo sítio histórico para montar um roteiro de meio dia.',
   },
   {
     id: '10',
@@ -156,39 +156,39 @@ export const places = [
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Porto_de_Galinhas-003.jpg/960px-Porto_de_Galinhas-003.jpg',
     description:
-      'Destino famoso pelas piscinas naturais, jangadas, aguas claras, restaurantes e clima de vila turistica.',
-    tips: 'Verifique a tabua de mares antes de ir, porque as piscinas naturais ficam melhores na mare baixa.',
+      'Destino famoso pelas piscinas naturais, jangadas, águas claras, restaurantes e clima de vila turística.',
+    tips: 'Verifique a tábua de marés antes de ir, porque as piscinas naturais ficam melhores na maré baixa.',
   },
   {
     id: '11',
     name: 'Praia dos Carneiros',
     category: 'Praia',
-    city: 'Tamandare',
+    city: 'Tamandaré',
     rating: 4.9,
     duration: '1 dia',
-    address: 'Praia dos Carneiros, Tamandare',
+    address: 'Praia dos Carneiros, Tamandaré',
     latitude: -8.7062,
     longitude: -35.0843,
     image:
       'https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Costa_dos_Corais_%28Recifes_de_corais_na_praia_dos_carneiros%2C_Pernambuco%29.jpg/960px-%C3%81rea_de_Prote%C3%A7%C3%A3o_Ambiental_Costa_dos_Corais_%28Recifes_de_corais_na_praia_dos_carneiros%2C_Pernambuco%29.jpg',
     description:
-      'Praia conhecida por aguas calmas, coqueiros, bancos de areia e a igreja de Sao Benedito proxima ao mar.',
-    tips: 'Leve bateria no celular para registrar fotos e guardar boas referencias para o roteiro.',
+      'Praia conhecida por águas calmas, coqueiros, bancos de areia e a Igreja de São Benedito próxima ao mar.',
+    tips: 'Leve bateria no celular para registrar fotos e guardar boas referências para o roteiro.',
   },
   {
     id: '12',
-    name: 'Ilha de Itamaraca',
+    name: 'Ilha de Itamaracá',
     category: 'Natureza',
-    city: 'Itamaraca',
+    city: 'Itamaracá',
     rating: 4.6,
     duration: '1 dia',
-    address: 'Ilha de Itamaraca, Litoral Norte',
+    address: 'Ilha de Itamaracá, Litoral Norte',
     latitude: -7.7477,
     longitude: -34.8253,
     image:
       'https://upload.wikimedia.org/wikipedia/commons/7/7b/Forte_Orange_-_Ilha_de_Itamarac%C3%A1%2C_Pernambuco%2C_Brasil%282%29.jpg',
     description:
-      'Ilha no litoral norte de Pernambuco, com praias, areas naturais, historia e passeios tranquilos para familia.',
-    tips: 'Boa opcao para explicar que o app cobre Recife e outros destinos proximos em Pernambuco.',
+      'Ilha no litoral norte de Pernambuco, com praias, áreas naturais, história e passeios tranquilos para a família.',
+    tips: 'Boa opção para explicar que o app cobre Recife e outros destinos próximos em Pernambuco.',
   },
 ];

@@ -45,7 +45,7 @@ export default function GpsScreen({ navigation }) {
     const { status } = await Location.requestForegroundPermissionsAsync();
 
     if (status !== 'granted') {
-      setErro('Permissao de localizacao negada.');
+      setErro('Permissão de localização negada.');
       setCarregando(false);
       return;
     }
@@ -96,17 +96,17 @@ export default function GpsScreen({ navigation }) {
         <Ionicons name="navigate-circle-outline" size={42} color={colors.primary} />
         <Text style={styles.title}>GPS em tempo real</Text>
         <Text style={styles.subtitle}>
-          Veja sua localizacao atual e encontre pontos turísticos proximos.
+          Veja sua localização atual e encontre pontos turísticos próximos.
         </Text>
       </View>
 
       <View style={styles.card}>
-        <Text style={styles.cardTitle}>Minha localizacao</Text>
+        <Text style={styles.cardTitle}>Minha localização</Text>
 
         {carregando ? (
           <View style={styles.loadingBox}>
             <ActivityIndicator size="large" color={colors.primary} />
-            <Text style={styles.loadingText}>Buscando localizacao...</Text>
+            <Text style={styles.loadingText}>Buscando localização...</Text>
           </View>
         ) : erro ? (
           <Text style={styles.errorText}>{erro}</Text>
@@ -124,8 +124,8 @@ export default function GpsScreen({ navigation }) {
                 latitude: location.latitude,
                 longitude: location.longitude,
               }}
-              title="Voce esta aqui"
-              description={`Precisao aproximada: ${Math.round(location.accuracy)} metros`}
+              title="Você está aqui"
+              description={`Precisão aproximada: ${Math.round(location.accuracy)} metros`}
               pinColor={colors.primary}
             />
 
@@ -145,11 +145,11 @@ export default function GpsScreen({ navigation }) {
 
         <TouchableOpacity style={styles.button} onPress={pegarLocalizacao}>
           <Ionicons name="refresh" size={18} color={colors.onPrimary} />
-          <Text style={styles.buttonText}>Atualizar localizacao</Text>
+          <Text style={styles.buttonText}>Atualizar localização</Text>
         </TouchableOpacity>
       </View>
 
-      <Text style={styles.sectionTitle}>Locais mais proximos</Text>
+      <Text style={styles.sectionTitle}>Locais mais próximos</Text>
 
       <FlatList
         data={locaisComDistancia}
@@ -162,7 +162,7 @@ export default function GpsScreen({ navigation }) {
               <Text style={styles.placeName}>{item.name}</Text>
               <Text style={styles.placeAddress}>{item.address}</Text>
               <Text style={styles.distance}>
-                {item.distance.toFixed(2)} km de distancia
+                {item.distance.toFixed(2)} km de distância
               </Text>
             </View>
 

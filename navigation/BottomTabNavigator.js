@@ -42,9 +42,9 @@ export default function BottomTabNavigator() {
         ),
       })}
     >
-      <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Inicio' }} />
+      <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Início' }} />
       <Tab.Screen name="List" component={ListScreen} options={{ title: 'Locais' }} />
-      <Tab.Screen name="Profile" component={ProfileScreen} options={{ title: 'Perfil'}} />
+      <Tab.Screen name="Profile" component={ProfileScreen} options={{ title: 'Perfil' }} />
       <Tab.Screen name="GPS" component={GpsScreen} options={{ title: 'GPS' }} />
     </Tab.Navigator>
   );
