@@ -19,7 +19,7 @@ export default function HomeScreen({ navigation }) {
           <Text style={styles.kicker}>Guia de viagem de Pernambuco</Text>
           <Text style={styles.title}>ExplorarPe</Text>
           <Text style={styles.subtitle}>
-            Descubra pontos turisticos de Pernambuco e veja detalhes importantes para planejar o passeio.
+            Descubra pontos turísticos de Pernambuco e veja detalhes importantes para planejar o passeio.
           </Text>
           <AppButton
             title="Explorar locais"
@@ -32,18 +32,18 @@ export default function HomeScreen({ navigation }) {
       <View style={styles.statsRow}>
         <StatCard label="locais cadastrados" value={places.length} />
         <StatCard label="categorias" value="7" />
-        <StatCard label="versao" value="1.0" />
+        <StatCard label="versão" value="1.0" />
       </View>
 
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>O que ja esta nesta versao</Text>
+        <Text style={styles.sectionTitle}>O que ja esta nesta versão</Text>
         <View style={styles.step}>
           <Ionicons name="list-circle-outline" size={28} color={colors.primary} />
-          <Text style={styles.stepText}>Lista de pontos turisticos com imagem, categoria, avaliacao e endereco.</Text>
+          <Text style={styles.stepText}>Lista de pontos turísticos com imagem, categoria, avaliação e endereço.</Text>
         </View>
         <View style={styles.step}>
           <Ionicons name="reader-outline" size={28} color={colors.primary} />
-          <Text style={styles.stepText}>Tela de detalhes recebendo as informacoes do local por parametro.</Text>
+          <Text style={styles.stepText}>Tela de detalhes recebendo as informações do local por parâmetro.</Text>
         </View>
         <View style={styles.step}>
           <Ionicons name="construct-outline" size={28} color={colors.primary} />

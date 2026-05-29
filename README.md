@@ -2,7 +2,7 @@
 ## Funcionalidades nesta versao
 
 - Tela inicial com apresentacao do app, resumo dos recursos e acesso rapido.
-- Lista de pontos turisticos usando `FlatList` com mais de 10 itens.
+- Lista de pontos turísticos usando `FlatList` com mais de 10 itens.
 - Cards com imagem, categoria, avaliacao, endereco e tempo sugerido.
 - Tela de detalhes recebendo dados por parametro via React Navigation.
 - Navegacao com Stack Navigator e Bottom Tab Navigator.

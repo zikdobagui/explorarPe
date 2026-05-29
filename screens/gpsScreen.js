@@ -96,7 +96,7 @@ export default function GpsScreen({ navigation }) {
         <Ionicons name="navigate-circle-outline" size={42} color={colors.primary} />
         <Text style={styles.title}>GPS em tempo real</Text>
         <Text style={styles.subtitle}>
-          Veja sua localizacao atual e encontre pontos turisticos proximos.
+          Veja sua localizacao atual e encontre pontos turísticos proximos.
         </Text>
       </View>
 

@@ -7,7 +7,7 @@ export default function ListScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <Text style={styles.title}>Pontos turisticos</Text>
+        <Text style={styles.title}>Pontos turísticos</Text>
         <Text style={styles.subtitle}>
           Toque em um card para abrir a tela de detalhes com passagem de parametros.
         </Text>

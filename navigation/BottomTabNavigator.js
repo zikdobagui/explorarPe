@@ -4,13 +4,14 @@ import HomeScreen from '../screens/HomeScreen';
 import ListScreen from '../screens/ListScreen';
 import { colors } from '../theme/colors';
 import GpsScreen from '../screens/gpsScreen';
-
+import ProfileScreen from '../screens/ProfileScreen';
 const Tab = createBottomTabNavigator();
 
 const icons = {
   Home: 'home-outline',
   List: 'map-outline',
   GPS: 'navigate-outline',
+  Profile: 'person-outline',
 };
 
 export default function BottomTabNavigator() {
@@ -35,6 +36,7 @@ export default function BottomTabNavigator() {
           fontWeight: '700',
           lineHeight: 14,
         },
+
         tabBarIcon: ({ color, size }) => (
           <Ionicons name={icons[route.name]} size={size} color={color} />
         ),
@@ -42,6 +44,7 @@ export default function BottomTabNavigator() {
     >
       <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Inicio' }} />
       <Tab.Screen name="List" component={ListScreen} options={{ title: 'Locais' }} />
+      <Tab.Screen name="Profile" component={ProfileScreen} options={{ title: 'Perfil'}} />
       <Tab.Screen name="GPS" component={GpsScreen} options={{ title: 'GPS' }} />
     </Tab.Navigator>
   );
